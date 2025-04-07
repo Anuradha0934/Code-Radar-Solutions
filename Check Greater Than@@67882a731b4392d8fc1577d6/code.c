@@ -1,9 +1,14 @@
 #include<stdio.h>
 
 int main() {
-    float radius;
+    int a, b;
     printf("");
-    scanf("%f", &radius);
-    printf("Area: %.2f", 3.14 * radius * radius);
+    scanf("%d %d", &a, &b);
+    if (a > b) {
+        printf("True \n");
+    }
+    else {
+        printf("False \n");
+    }
     return 0;
 }
