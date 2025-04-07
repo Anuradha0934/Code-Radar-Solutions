@@ -2,8 +2,8 @@
 int main()
 {
     char word(100);
-    printf("Enter a word: ");
-    scanf("%s",word);
-    printf("You entered: %s\n",word);
+    printf("");
+    scanf("%s",&word);
+    printf("You entered: %s",word);
     return 0;
 }
